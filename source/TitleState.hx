@@ -477,12 +477,12 @@ class TitleState extends MusicBeatState
 				case 4:
 					deleteCoolText();
 				// credTextShit.visible = false;
-				// credTextShit.text = 'In association \nwith';
+				// credTextShit.text = 'mod by \on credits lol';
 				// credTextShit.screenCenter();
 				case 5:
-					createCoolText(['This is a mod to'], -60);
+					createCoolText(['fuck you'], -60);
 				case 7:
-					addMoreText('This game right below lol', -60);
+					addMoreText('discord server', -60);
 					logoSpr.visible = true;
 				// credTextShit.text += '\nNewgrounds';
 				case 8:
@@ -510,7 +510,7 @@ class TitleState extends MusicBeatState
 					addMoreText('Night');
 				// credTextShit.text += '\nNight';
 				case 15:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Funkin vs unikkity'); // credTextShit.text += '\nFunkin';
 
 				case 16:
 					skipIntro();

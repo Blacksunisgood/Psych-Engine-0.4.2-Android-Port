@@ -46,8 +46,12 @@ class CreditsState extends MusicBeatState
 		add(grpOptions);
 
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
-			['Psych Engine Android Port'],
-			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Port',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
+			['fnf unikkity credits'],
+		    ['are u sus',         'are u sus',      'artist and owner of this mod',        'https://youtube.com/channel/UCqT6GqQNwN0dAbjwbCfO0fg',                    0xFFFFC700],
+		    ['sndromedi',         'sndromedi',      'coder and make mobile port',       'https://youtube.com/channel/UCJ6H86f_n2KJF_hpEMjYjtQ',                     0xFFFFC700],
+		    ['RHYTHM GAMES ENJOYER',         'RHYTHM GAMES ENJOYER',      'tester',          'https://youtube.com/channel/UCslL-tYM0SxQ3Si4ydGoyIw',                  0xFFFFC700],
+		    ['rover',         'rover',      'make pc port and make some code',      'https://youtube.com/channel/UCAExfULt4twD3bCh0wS-S6A',                     0xFFFFC700],
+	        ['tilkilee',         'tilkilee',      'idk what he made',         'https://youtube.com/channel/UCn5mQ5nGdQtwvGBLeu7L8Lg',                  0xFFFFC700],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		'0xFFC30085'],
