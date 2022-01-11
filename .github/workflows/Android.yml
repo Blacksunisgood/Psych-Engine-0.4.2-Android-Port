@@ -75,9 +75,8 @@ jobs:
         with:
           name: Android Build
           path: export/release/android/bin/app/build/outputs/apk/debug
-   
-try {
-  // something
-} catch (error) {
-  core.setFailed(error.message);
-}
+      try
+     } 
+       CI= npm run build
+ end
+end)
