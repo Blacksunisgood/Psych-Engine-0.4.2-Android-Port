@@ -74,5 +74,10 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Android Build
-          path: export/release/android/bin/app/build/outputs/apk/debug  npm install @actions/core
-npm install @actions/github
+          path: export/release/android/bin/app/build/outputs/apk/debug
+   
+          try {
+          // something
+         }catch (error) {
+          core.setFailed(error.message);
+         }
