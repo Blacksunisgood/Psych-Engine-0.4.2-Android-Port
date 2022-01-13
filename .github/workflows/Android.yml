@@ -74,4 +74,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Android Build
-          path: export/release/android/bin/app/build/outputs/apk/debug haxelib run lime
+          path: export/release/android/bin/app/build/outputs/apk/debug npm run lint -- --fix
+                export/release/android/bin/app/build/outputs/apk/debug git add -A
+                export/release/android/bin/app/build/outputs/apk/debug git commit -m "fix linting"
+                export/release/android/bin/app/build/outputs/apk/debug gup
