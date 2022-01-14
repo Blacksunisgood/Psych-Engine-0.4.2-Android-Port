@@ -74,6 +74,5 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Android Build
-          path: export/release/android/bin/app/build/outputs/apk/debug npm run lint -- --fix
-                export/release/android/bin/app/build/outputs/apk/debug git add -A
-                export/release/android/bin/app/build/outputs/apk/debug git commit -m "fix linting"
+          path: export/release/android/bin/app/build/outputs/apk/debug
+          conda install ipykernel --update-deps --force-reinstall
